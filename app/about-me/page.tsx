@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/navbar";
+import HikingHeroCard from "./components/hikingHeroCard";
 
 const AboutMePage = () => {
     return (
         <>
             <Navbar />
-            About Me
+            <HikingHeroCard />
         </>
     );
 };
