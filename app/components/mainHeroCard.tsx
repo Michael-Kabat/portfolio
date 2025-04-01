@@ -1,13 +1,14 @@
 import React from "react";
 import Links from "./links";
-
+import Image from "next/image";
 const HeroCard = () => {
     return (
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row">
-                <img
+                <Image
                     src="images\aboutMePicture.jpg"
                     className="max-w-sm rounded-lg shadow-2xl"
+                    alt="walking on a bridge"
                 />
                 <div>
                     <h1 className="text-5xl font-bold font-mono">

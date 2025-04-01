@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 
 const OttawaCard = () => {
     return (
         <div className="card card-side bg-base-200 shadow-sm m-10">
             <figure>
-                <img
+                <Image
                     src="images/ottawaSignPicture.jpg"
                     alt="Ottawa Sign"
                     className="object-cover h-120 w-200 rounded-lg ml-4 mt-4 mb-4"
@@ -32,12 +33,12 @@ const OttawaCard = () => {
                 </p>
 
                 <div className="mt-4 grid grid-cols-2">
-                    <img
+                    <Image
                         src="images/beavertailPicture.jpg"
                         alt="Beaver tails"
                         className="object-cover h-65 w-68 rounded-lg "
                     />
-                    <img
+                    <Image
                         src="images/ottawaHillPicture.jpg"
                         alt="Ottawa national war memorial"
                         className="object-cover h-65 w-68 rounded-lg ml-2"
