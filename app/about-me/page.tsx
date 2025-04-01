@@ -1,14 +1,16 @@
 import React from "react";
 import Navbar from "../components/navbar";
-import HikingHeroCard from "./components/hikingHeroCard";
-import ActivitiesHeroCard from "./components/activitesHeroCard";
+import HikingCard from "./components/hikingCard";
+import ActivitiesCard from "./components/activitesCard";
+import OttawaCard from "./components/ottawaCard";
 
 const AboutMePage = () => {
     return (
         <>
             <Navbar />
-            <HikingHeroCard />
-            <ActivitiesHeroCard />
+            <HikingCard />
+            <OttawaCard />
+            <ActivitiesCard />
         </>
     );
 };

@@ -10,7 +10,7 @@ const HeroCard = () => {
                     className="max-w-sm rounded-lg shadow-2xl"
                 />
                 <div>
-                    <h1 className="text-5xl font-bold font-serif">
+                    <h1 className="text-5xl font-bold font-mono">
                         Michael Kabat
                     </h1>
                     <div className="flex w-full flex-col text-lg">
