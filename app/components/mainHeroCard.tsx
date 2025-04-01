@@ -6,7 +6,7 @@ const HeroCard = () => {
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row">
                 <img
-                    src="/images/aboutMePicture.jpg"
+                    src="images\aboutMePicture.jpg"
                     className="max-w-sm rounded-lg shadow-2xl"
                 />
                 <div>

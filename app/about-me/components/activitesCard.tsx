@@ -19,18 +19,18 @@ const ActivitiesCard = () => {
             </div>
             <div>
                 <img
-                    src="images\volleyballServePicture.jpeg"
+                    src="images\volleyballServePicture.JPEG"
                     className="object-cover h-59 w-138 rounded-lg shadow-lg ml-4 m-2 mt-10"
                     alt="Volleyball serve"
                 />
 
                 <img
-                    src="images\highfivingSoccerPicture.jpg"
+                    src="images\highfivingSoccerPicture.JPG"
                     className="float-left object-cover h-59 w-72 rounded-lg shadow-lg ml-4"
                     alt="Playing soccer"
                 />
                 <img
-                    src="images\toughMudderWaterPicture.jpg"
+                    src="images\toughMudderWaterPicture.JPG"
                     className="float-right object-cover h-59 w-63 rounded-lg shadow-lg"
                     alt="Tough Mudder 5k"
                 />
